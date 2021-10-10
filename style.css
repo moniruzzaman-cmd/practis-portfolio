@@ -1,0 +1,62 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.header{
+    display: flex;
+    
+    background-image: url(imgas/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
+
+.heading-banner{
+    
+    
+    float: left;
+    width: 50%;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 35px;
+    
+    
+    
+    
+    
+}
+.heading-title h1 {
+    font-size: 50px;
+    line-height: 2;
+
+    
+
+
+}
+.heading-title span {
+    color: orange;
+}
+.heading-text {
+    margin-top: 50px;
+}
+.heading-text p {
+    padding-top: 30px;
+    color: dimgray;
+}
+
+.heading-img{
+    width: 50%;
+    float: right;
+
+}
+.heading-img img{
+   
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    width: 85%;
+}
