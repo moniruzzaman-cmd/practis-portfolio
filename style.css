@@ -30,7 +30,7 @@
     
 }
 .heading-title h1 {
-    font-size: 50px;
+    font-size: 45px;
     line-height: 2;
 
     
@@ -49,8 +49,10 @@
 }
 
 .heading-img{
+    margin-top: 40px;
     width: 50%;
     float: right;
+
 
 }
 .heading-img img{
@@ -58,5 +60,5 @@
     float: left;
     margin-left: 5%;
     padding-left: 2%;
-    width: 85%;
+    width: 90%;
 }
