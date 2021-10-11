@@ -32,9 +32,10 @@ body{
  
 }
 
-.title span {
+.orenge-highlite {
     color: orange;
 }
+
 .sub-title p {  
     color: dimgray;
     
@@ -91,4 +92,65 @@ body{
     margin-left: 0;
     margin-right: 5%;
     
+}
+.resume-text{
+    margin-right: 16%;
+}
+.section-title{
+  height: 500px;
+  
+
+
+}
+.card-section h2{
+    font-size: 40px;
+    
+    
+ 
+
+}
+.section-title{
+    display: flex;
+  
+ 
+   justify-content: center;
+   background-image: url(imgas/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: left;
+ 
+ 
+
+   
+  
+
+}
+.left-half{
+    width: 33%;
+    
+ 
+    margin: auto;
+     padding: 0 4%;
+     border-image: linear-gradient(180deg , salmon , tomato);
+    
+}
+.right-half{
+    width: 33%;
+    float: right;
+    margin: auto;
+    padding: 0 4%;
+    border-image: linear-gradient(180deg , rgb(51, 53, 168),rgb(47, 197, 243));
+    height: 80%;
+ 
+}
+.card-design{
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+    border-left: 7px solid;
+    border-image-slice: 1;
+    height: 80%;
+   
+}
+footer{
+    text-align: center;
+    color: grey;
 }
