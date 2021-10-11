@@ -1,64 +1,94 @@
 
 
-*{
+body{
     margin: 0;
     padding: 0;
-    overflow: hidden;
-    font-family: 'Poppins', sans-serif;
-    
+   font-family: 'Poppins', sans-serif;   
 }
+
 .header{
     display: flex;
-    
+    height: 600px;
     background-image: url(imgas/top-banner.png);
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat;   
 }
 
-.heading-banner{
+.banner{
     
-    
+    margin-top: 3%;
+    margin-left: 5%;
     float: left;
     width: 50%;
-    margin-left: 5%;
-    padding-left: 2%;
-    margin-top: 35px;
-    
-    
-    
-    
-    
+    padding-left: 2%;   
 }
-.heading-title h1 {
+
+
+.title h1 {
     font-size: 45px;
-    line-height: 2;
-
-    
-
 
 }
-.heading-title span {
+.title h3 {
+    font-size: 35px;
+ 
+}
+
+.title span {
     color: orange;
 }
-.heading-text {
-    margin-top: 50px;
-}
-.heading-text p {
-    padding-top: 30px;
+.sub-title p {  
     color: dimgray;
+    
+}
+.sub-title h3 {
+  font-size: 20px;
 }
 
 .heading-img{
-    margin-top: 40px;
+   
     width: 50%;
     float: right;
+    padding-left: 2%;
+    margin-left: 5%;
 
 
 }
 .heading-img img{
    
     float: left;
-    margin-left: 5%;
-    padding-left: 2%;
+    /* margin-left: 5%; */
     width: 90%;
+}
+.hereme-button{
+    background-image: linear-gradient(45deg , lightsalmon,tomato);
+    width: 150px;
+    height: 35px;
+    text-align: center;
+  
+    
+    margin: 10px 0px;
+    border-radius: 6px;
+    padding-top: 5px;
+  
+}
+.hereme-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    
+   
+
+}
+.resume{
+    display: flex;
+    height: 600px;
+    background-image: url(imgas/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.banner-margin{
+    margin-left: 0;
+    margin-right: 5%;
+    
 }
